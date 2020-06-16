@@ -47,3 +47,5 @@ test_main.o:test_main.c test1.h test2.h
 [Linux-C动态库与静态库的编译与调用](https://blog.csdn.net/nanfeibuyi/article/details/81203021)
 
 [C语言调用so动态库的两种方式](https://blog.csdn.net/shaosunrise/article/details/81161064)
+
+[C语言中.h和.c文件解析](https://www.cnblogs.com/laojie4321/archive/2012/03/30/2425015.html)
