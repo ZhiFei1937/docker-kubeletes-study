@@ -49,3 +49,5 @@ test_main.o:test_main.c test1.h test2.h
 [C语言调用so动态库的两种方式](https://blog.csdn.net/shaosunrise/article/details/81161064)
 
 [C语言中.h和.c文件解析](https://www.cnblogs.com/laojie4321/archive/2012/03/30/2425015.html)
+
+ifndef”意思是“如果在导入头文件的文件中之前没有导入该头文件就编译下面的代码”
