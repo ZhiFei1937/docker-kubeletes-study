@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-deployment-show
+spec:
+  replicas: 2 
+  selector:
+    matchLabels:
+      app: show 
+  template:
+    metadata:
+      labels:
+        app: show 
+    spec:
+      containers:
+      - name: deploy-nginx-show
+        image: reg.swharbor.com/tidc/nginx:v-ping
+        command: ["nginx","-g","daemon off;"]
+        ports:
+        - containerPort: 80
